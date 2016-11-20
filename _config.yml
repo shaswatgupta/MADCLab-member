@@ -1,15 +1,16 @@
 # Site settings
-title: Clean Blog
+title: Research Blog
+signature: SG
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: shaswat770@gmail.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+baseurl: ""
+url: "http://shaswatgupta@github.io"
+twitter_username: shaswat770
+github_username:  shaswatgupta
+facebook_username:  shaswat.gupta
+email_username:  shaswat770@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
@@ -19,7 +20,14 @@ email_username:  your-email@yourdomain.com
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+
+# gems to be installed along with jekyll
+gems: [jekyll-paginate, jekyll-feed]
+
+# pagination settings 
+paginate_path: "blog/page:num/"
 paginate: 5
+
+# files to be ignored by jekyll for build
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
